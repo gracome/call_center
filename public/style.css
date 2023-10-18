@@ -1,0 +1,74 @@
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+
+.side_left{
+    position: fixed;
+    color: #fff;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 10%;
+   
+}
+.header_top{
+    position: fixed;
+    box-shadow: 0px 4px 6px 0px #36404933;
+    left: 10%;
+    width: calc(100% - 10%);
+}
+.phone_class{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+}
+
+.dialTextInput{
+    font-size: 20px;
+    text-align: center;
+    border-radius: 0px;
+    border: none;
+    background-color: transparent;
+    outline-style: none;
+}
+.dialButtons{
+    font-size: 18px; 
+    border: none;
+    border-radius: 100px;
+    width:55px;
+    height:55px;
+}
+.dialButtons:disabled:hover{
+    border: none;
+}
+.dialButtons div{
+    font-size: 24px;
+    line-height: 9px;
+    margin: 0px;
+    margin-top: 7px;
+    padding: 0px;
+}
+.dialButtons span{
+    font-size: 9px;
+    line-height: 9px;
+    margin: 0px;
+    padding: 0px;
+}
+.dialButtonsDial{
+    font-size: 25px;
+}
+.dialButtons {
+    color: #3478f3;
+    background-color: #eeeeee;
+}
+.dialButtons span {
+    color: #999999;
+}
+.dialButtonsDial {
+    color: #FFFFFF;
+    background-color: #25962f;
+}
